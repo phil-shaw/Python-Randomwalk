@@ -1,7 +1,7 @@
 
 #Screen Geometry
-X_SIZE = 400
-Y_SIZE = 300
+X_SIZE = 800
+Y_SIZE = 600
 
 # Colours
 BLACK = (0,0,0)
