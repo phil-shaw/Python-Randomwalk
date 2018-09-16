@@ -23,9 +23,9 @@ while 1:
         if event.type == pygame.QUIT:
             sys.exit()
 
-    if event.type == pygame.KEYDOWN:
-        if event.key == pygame.K_s:
-            pygame.image.save(screen, "image.png")
+        if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_s:
+                pygame.image.save(screen, "image.png")
 
     w.draw(screen)
     w2.draw(screen)
